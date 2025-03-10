@@ -273,7 +273,7 @@ hr {
     .cop-logo {
         display: flex;
         justify-content: center;
-        width: auto;
+        width: 60px;
         height: 50px;
         z-index: 1000;
        
@@ -2125,6 +2125,7 @@ margin-bottom: 20px;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
+        display: flex;
         flex-wrap: wrap;
     }
 
