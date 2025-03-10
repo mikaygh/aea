@@ -273,8 +273,8 @@ hr {
     .cop-logo {
         display: flex;
         justify-content: center;
-        width: 3rem;
-        height: 3rem;
+        width: auto;
+        height: 50px;
         z-index: 1000;
        
 
@@ -2125,6 +2125,7 @@ margin-bottom: 20px;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
+        flex-wrap: wrap;
     }
 
     .dedication, .dedication-a, .dedication-1, .dedication-2, .dedication-3, .dedication-4, .dedication-5 {
