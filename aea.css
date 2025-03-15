@@ -964,7 +964,7 @@ h2 {
 
 .Tuesday-meetings {
     background-image: url(Images/Image-18.JPG);
-        background-size: contain;
+        background-size: cover;
         width: 400px;
         height: 400px;
         margin-bottom: 100px;
@@ -984,13 +984,14 @@ h2 {
 
 
 .Wednesday-meetings {
-    background-image: url(Images/Image-18.JPG);
-        background-size: contain;
+    background-image: url(Images/image-bb.jpeg);
+        background-size: cover;
         width: 400px;
         height: 400px;
         margin-bottom: 100px;
         border-radius: 20px;
         margin-left: 50px;
+        /* background-repeat: no-repeat; */
         /* display: flex;
         align-items: center;
         justify-content: center;
@@ -1006,7 +1007,7 @@ h2 {
 
 .Thursday-meetings {
     background-image: url(Images/Image-17.JPG);
-        background-size: contain;
+        background-size: cover;
         /* background-position: center; */
         width: 400px;
         height: 400px;
