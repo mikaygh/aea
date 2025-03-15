@@ -890,11 +890,12 @@ h2 {
 
 .overlay {
     position: absolute;
-    width: 400px;
+    width: 330px;
     height: 400px;
     background-color: rgba(0, 0, 59, 0.6); 
     box-shadow: rgba(0, 0, 0, 0.7);
     border-radius: 20px;
+    justify-self: center;
 }
 
 
@@ -907,6 +908,19 @@ h2 {
 
     }
 }
+
+
+@media screen and (min-width:1180px) and (max-width: 1580px) {
+    .overlay  {
+        width: 217.64px;
+        height: 400px;
+
+       
+
+    }
+}
+
+
 
 /* .Sunday-meetings h2,
 .Monday-meetings h2,
@@ -968,6 +982,28 @@ h2 {
 
 
 
+
+.Wednesday-meetings {
+    background-image: url(Images/Image-18.JPG);
+        background-size: contain;
+        width: 400px;
+        height: 400px;
+        margin-bottom: 100px;
+        border-radius: 20px;
+        margin-left: 50px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(231, 231, 231); 
+        position: relative;
+        margin-bottom: 50px;  */
+        
+}
+
+
+
+
 .Thursday-meetings {
     background-image: url(Images/Image-17.JPG);
         background-size: contain;
@@ -1016,8 +1052,10 @@ h2 {
     margin-bottom: 40px;
     align-items: center;
     justify-content: center;
+    justify-items: center;
     padding-top: 100px;
-    width: 100%;
+    /* width: 100%; */
+    /* margin: 0 auto; */
     /* max-width: 100vw;
     flex-wrap: wrap; */
     
@@ -1769,7 +1807,8 @@ text-decoration: none;
 
 
 
-.About-text {
+.About-text,
+.About-text-Asofan {
     color: rgb(255, 255, 255);
     text-align: justify;
     width: 1000px;
@@ -1784,7 +1823,8 @@ text-decoration: none;
 }
 
 
-.History {
+.History,
+.History-Asofan {
     text-align: center;
     margin-top: 20px;
     color: grey; 
@@ -1794,14 +1834,15 @@ text-decoration: none;
 
 
 
+
 @media screen and (max-width: 1180px) {
-    .About-text  {
+    .About-text, .About-text-Asofan   {
     width: 100%;
     font-size: 14px;
     line-height: normal;
     }
 
-    .History  {
+    .History, .History-Asofan   {
         margin-top: 10px;
         font-size: 18px;
     }
@@ -1809,16 +1850,53 @@ text-decoration: none;
         margin-top: 0;
         font-size: 18px;
     }
+    .COP-leadership  {
+        margin-top: 0;
+        font-size: 18px;
+    }
 }
 
 
 
-.leadership {
+.COP-leadership {
     text-align: center;
     margin-top: 20px;
     color: grey;
     
 }
+
+.APS-SAFO {
+    width: 400px;
+}
+
+.APS-SAFO  p {
+    color: grey;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.APS-SAFO  img {
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0PX 5PX 15PX rgba(0, 0, 0, 0.5);
+}
+
+.leadership {
+    text-align: center;
+    margin-top: 100px;
+    color: grey;
+    
+}
+
+
+.COP-leadership {
+    text-align: center;
+    margin-top: 100px;
+    color: grey;
+    
+}
+
 
 .Eld-DNA {
     width: 500px;
@@ -1850,16 +1928,45 @@ text-decoration: none;
     .Eld-DNA img  {
         height: 100%;
     }
-   
+ 
+    .APS-SAFO {
+        width: 90%;
+        margin: 0 auto;
+        }
+    .APS-SAFO p  {
+            font-size: 14px;
+        }
+    
+    .APS-SAFO img  {
+            height: 100%;
+        }
+     
+    
+}
+
+
+.PS-JM {
+    width: 400px;
+}
+
+.PS-JM p {
+    color: grey;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.PS-JM img {
+    height: 500px;
+    border-radius: 14px;
+    box-shadow: 0PX 5PX 15PX rgba(0, 0, 0, 0.5);
 }
 
 
 
 
-
-
 .PS-JA {
-    width: 500px;
+    width: 400px;
 }
 
 .PS-JA p {
@@ -1889,7 +1996,18 @@ text-decoration: none;
     .PS-JA img {
         height: 100%;
     }
-   
+    
+    .PS-JM  {
+        width: 90%;
+        margin: 0 auto;
+        }
+    .PS-JM p {
+            font-size: 14px;
+        }
+    
+    .PS-JM img {
+            height: 100%;
+        }
 }
 
 
@@ -1917,32 +2035,228 @@ text-decoration: none;
 
 
 
+
+.MK-YB {
+    width: 400px;
+    
+}
+
+.MK-YB p {
+    color: grey;
+    margin-top: 14px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.MK-YB img {
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0PX 5PX 15PX rgba(0, 0, 0, 0.5);
+}
+
 @media screen and (max-width: 1180px) {
-    .Eld-YB  {
+    .MK-YB  {
     width: 90%;
     margin: 0 auto;
     }
-    .Eld-YB p {
+    .MK-YB p {
         font-size: 14px;
     }
 
-    .Eld-YB img {
+    .MK-YB img {
         height: 100%;
     }
+    .Eld-YB  {
+        width: 90%;
+        margin: 0 auto;
+        }
+    .Eld-YB p {
+            font-size: 14px;
+        }
+    
+    .Eld-YB img {
+            height: 100%;
+    }
+       
    
 }
 
 
 
 
+
+
+
+.MK-YB {
+    width: 400px;
+    
+}
+
+.MK-YB p {
+    color: grey;
+    margin-top: 14px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.MK-YB img {
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0PX 5PX 15PX rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1180px) {
+    .MK-YB  {
+    width: 90%;
+    margin: 0 auto;
+    }
+    .MK-YB p {
+        font-size: 14px;
+    }
+
+    .MK-YB img {
+        height: 100%;
+    }
+    
+   
+}
+
+
+
+
+
+
+.APS-NTUMY {
+    width: 400px;
+    
+}
+
+.APS-NTUMY p {
+    color: grey;
+    margin-top: 14px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.APS-NTUMY img {
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0PX 5PX 15PX rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1180px) {
+    .APS-NTUMY  {
+    width: 90%;
+    margin: 0 auto;
+    }
+    .APS-NTUMY p {
+        font-size: 14px;
+    }
+
+    .APS-NTUMY img {
+        height: 100%;
+    }
+    
+   
+}
+
+
+
+
+
+
+.APS-ONYINA {
+    width: 400px;
+    
+}
+
+.APS-ONYINA p {
+    color: grey;
+    margin-top: 14px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.APS-ONYINA img {
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0PX 5PX 15PX rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1180px) {
+    .APS-ONYINA  {
+    width: 90%;
+    margin: 0 auto;
+    }
+    .APS-ONYINA p {
+        font-size: 14px;
+    }
+
+    .APS-ONYINA img {
+        height: 100%;
+    }
+    
+   
+}
+
+
+.APS-NYAMEKYE {
+    width: 400px;
+    
+}
+
+.APS-NYAMEKYE p {
+    color: grey;
+    margin-top: 14px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.APS-NYAMEKYE img {
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0PX 5PX 15PX rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1180px) {
+    .APS-NYAMEKYE  {
+    width: 90%;
+    margin: 0 auto;
+    }
+    .APS-NYAMEKYE p {
+        font-size: 14px;
+    }
+
+    .APS-NYAMEKYE img {
+        height: 100%;
+    }
+    
+   
+}
+
+
+
+
+
 .Church-leadership {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     justify-content: center;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
     padding-top: 70px;
 }
 
+
+.COP-Church-leadership {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    /* padding-top: 40px; */
+    padding: 50px;
+    margin-bottom: 50px;
+}
 
 @media screen and (max-width: 1180px) {
     .Church-leadership  {
@@ -1950,6 +2264,12 @@ text-decoration: none;
     padding-top: 30px;
     width: 100%;
     }
+    .COP-Church-leadership  {
+        flex-direction: column;
+        padding-top: 30px;
+        width: 100%;
+        }
+       
    
 }
 
@@ -2181,7 +2501,7 @@ margin-bottom: 20px;
     max-width: 400px; 
     height: auto; 
     display: flex;
-        justify-self: center;
+    justify-self: center;
 }
 
 .First-Sunday-1 img:hover, .First-Sunday-2 img:hover, .First-Sunday-3 img:hover, .First-Sunday-4 img:hover, .First-Sunday-5 img:hover {
